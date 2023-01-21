@@ -8,13 +8,13 @@ const config: GatsbyConfig = {
     // You can overwrite values here that are used for the SEO component
     // You can also add new values here to query them like usual
     // See all options: https://github.com/LekoArts/gatsby-themes/blob/main/themes/gatsby-theme-jodie/gatsby-config.js
-    siteTitle: `Jodie`,
-    siteTitleAlt: `Jodie - Gatsby Starter Portfolio`,
-    siteHeadline: `Jodie - Gatsby Theme from @lekoarts`,
-    siteUrl: `https://jodie.lekoarts.de`,
+    siteTitle: `Lost Triangle`,
+    siteTitleAlt: `Lost Triangle - Portfolio`,
+    siteHeadline: `Lost Triangle - Gatsby Theme from @lekoarts`,
+    siteUrl: `https://gallery.lost-triangle.com`,
     siteDescription: `Image-heavy photography portfolio with colorful accents & customizable pages. Includes adaptive image grids powered by CSS grid and automatic image integration into projects.`,
     siteImage: `/banner.jpg`,
-    author: `@lekoarts_de`,
+    author: `HappyNeal`,
   },
   trailingSlash: `never`,
   plugins: [
@@ -24,7 +24,7 @@ const config: GatsbyConfig = {
       options: {
         navigation: [
           { name: `Projects`, slug: `/projects` },
-          { name: `Art`, slug: `/art` },
+          // { name: `Art`, slug: `/art` },
           { name: `About`, slug: `/about` },
         ],
       },
