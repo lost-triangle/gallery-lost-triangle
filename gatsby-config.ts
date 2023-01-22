@@ -15,6 +15,7 @@ const config: GatsbyConfig = {
     siteDescription: `Image-heavy photography portfolio with colorful accents & customizable pages. Includes adaptive image grids powered by CSS grid and automatic image integration into projects.`,
     siteImage: `/banner.jpg`,
     author: `HappyNeal`,
+    
   },
   trailingSlash: `never`,
   plugins: [
@@ -23,10 +24,11 @@ const config: GatsbyConfig = {
       // See the theme's README for all available options
       options: {
         navigation: [
-          { name: `Projects`, slug: `/projects` },
+          // { name: `Projects`, slug: `/projects` },
           // { name: `Art`, slug: `/art` },
           { name: `About`, slug: `/about` },
         ],
+        homepageProjectLimit: 9999,
       },
     },
     {
